@@ -17,9 +17,15 @@
     "bot",
     "mirror"
   ],
-  "author": {
-    "name": "Philip Chung",
-    "email": "philipchung1995@yahoo.com"
+  "author": "Philip Chung <philipchung1995@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirror-pool/mirror-pool.git"
   },
-  "license": "MIT"
+  "bugs": {
+    "url": "https://github.com/mirror-pool/mirror-pool/issues"
+  },
+  "homepage": "https://github.com/mirror-pool/mirror-pool#readme"
 }
