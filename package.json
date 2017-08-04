@@ -1,0 +1,25 @@
+{
+  "name": "mirror-pool",
+  "version": "1.0.0",
+  "description": "Framework for bots to mirror chats across platforms",
+  "main": "index.js",
+  "files": [
+    "lib/"
+  ],
+  "devDependencies": {
+    "coffeescript": "^1.12.7"
+  },
+  "scripts": {
+    "prepublish": "rm -rf lib/ && `npm bin`/coffee -c -o lib/ src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "mirror"
+  ],
+  "author": {
+    "name": "Philip Chung",
+    "email": "philipchung1995@yahoo.com"
+  },
+  "license": "MIT"
+}
